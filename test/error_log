@@ -1,5 +1,0 @@
-[09-Mar-2014 20:51:03 UTC] PHP Fatal error:  Call to undefined function get_file_contents() in /home/hottyapp/public_html/test/wk-parse.php on line 3
-[09-Mar-2014 20:51:26 UTC] PHP Fatal error:  Call to undefined function get_file_content() in /home/hottyapp/public_html/test/wk-parse.php on line 3
-[09-Mar-2014 20:51:53 UTC] PHP Warning:  file_get_contents(http://cs540300v4.vk.me/u242260463/videos/a36fcea451.240.mp4): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
- in /home/hottyapp/public_html/test/wk-parse.php on line 3
-[09-Mar-2014 20:59:30 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/hottyapp/public_html/test/wk-parse.php on line 13

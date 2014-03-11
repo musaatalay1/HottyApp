@@ -1,1 +1,0 @@
-<div class="headerWrapper"> <a href="index.html" class="headerLogo"><img src="Themplates/default/images/common/headerLogo.png" alt=""/></a><a href="" class="mainMenuButton"></a></div>
