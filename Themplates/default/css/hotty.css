@@ -1,0 +1,37 @@
+.loading-gif{
+	position: fixed;
+	left: 25%;
+	top: 35%;
+	width:50%; 
+	height:30%;
+}
+
+.loading-div{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%; 
+	height:100%;
+	background: #15191F;
+	z-index: 10000;
+}
+
+.alert{
+
+	background-color: #fff;
+	margin-left: 24px;
+	margin-right: 24px;
+	/*
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 5px;
+	padding-bottom: 47px;
+	*/
+	padding-bottom: 42px;
+	height: 16px;
+	vertical-align: baseline;
+	margin-bottom: 36px;
+	box-shadow: 3px 3px 0px rgba(0,0,0,0.12);
+	border-radius: 12px;
+
+}

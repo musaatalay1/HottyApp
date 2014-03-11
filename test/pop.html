@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<style type="text/css">
+			#popup
+			{
+			    position:absolute;
+			    display:none;
+			    top:200px;
+			    left:50%;
+			    width:500px; 
+			    margin-left:-250px;
+			    border:1px solid blue; 
+			    padding:20px;
+			    background-color:white;
+			}
+		</style>
+		<script type="text/javascript">
+		    function show_popup()
+		    {
+		      document.getElementById('popup').style.display = 'block'; 
+		    }
+
+		    window.onload = show_popup;
+		</script>
+	</head>
+	<body>
+		<div id="popup">text here...</div>
+	</body>
+</html>
