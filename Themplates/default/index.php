@@ -27,11 +27,11 @@
 
   <!-- slider wrapper starts -->
 
-  <div class="sliderOuterWrapper"> <span class="sliderTopDeco"></span> <a href="" class="mainLogo"><img src="images/common/mainLogo.png" alt=""/></a>
+  <div class="sliderOuterWrapper"> <span class="sliderTopDeco"></span> <a href="" class="mainLogo"><img src="Themplates/default/images/common/mainLogo.png" alt=""/></a>
 
     <div class="sliderWrapper">
 
-      <div class="mainSlider" id="mainSlider"> <a href=""><img src="images/content/slide-1.jpg" alt="" /></a> <a href=""><img src="images/content/slide-2.jpg" alt="" /></a><a href=""><img src="images/content/slide-3.jpg" alt="" /></a> </div>
+      <div class="mainSlider" id="mainSlider"> <a href=""><img src="Themplates/default/images/content/slide-1.jpg" alt="" /></a> <a href=""><img src="Themplates/default/images/content/slide-2.jpg" alt="" /></a><a href=""><img src="Themplates/default/images/content/slide-3.jpg" alt="" /></a> </div>
 
     </div>
 
@@ -67,7 +67,7 @@
 
             <!-- recent project wrapper starts --> 
 
-            <a href="singleProject.html" class="recentProject"><img src="images/content/small-1-2.jpg" class="recentProjectImage" alt=""/>
+            <a href="singleProject.html" class="recentProject"><img src="Themplates/default/images/content/small-1-2.jpg" class="recentProjectImage" alt=""/>
 
             <h4 class="recentProjectTitle">Road</h4>
 
@@ -77,7 +77,7 @@
 
             <!-- recent project wrapper starts --> 
 
-            <a href="singleProject.html" class="recentProject"><img src="images/content/small-1-3.jpg" class="recentProjectImage" alt=""/>
+            <a href="singleProject.html" class="recentProject"><img src="Themplates/default/images/content/small-1-3.jpg" class="recentProjectImage" alt=""/>
 
             <h4 class="recentProjectTitle">Trees</h4>
 
@@ -87,7 +87,7 @@
 
             <!-- recent project wrapper starts --> 
 
-            <a href="singleProject.html" class="recentProject"><img src="images/content/small-1-4.jpg" class="recentProjectImage" alt=""/>
+            <a href="singleProject.html" class="recentProject"><img src="Themplates/default/images/content/small-1-4.jpg" class="recentProjectImage" alt=""/>
 
             <h4 class="recentProjectTitle">Mountains</h4>
 
@@ -97,7 +97,7 @@
 
             <!-- recent project wrapper starts --> 
 
-            <a href="singleProject.html" class="recentProject"><img src="images/content/small-1-5.jpg" class="recentProjectImage" alt=""/>
+            <a href="singleProject.html" class="recentProject"><img src="Themplates/default/images/content/small-1-5.jpg" class="recentProjectImage" alt=""/>
 
             <h4 class="recentProjectTitle">A Forest</h4>
 

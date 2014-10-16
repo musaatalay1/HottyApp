@@ -18,8 +18,11 @@
 
 		$_SESSION["p"] = $fetch->password;
 
+        $_SESSION["uid"] = $fetch->user_id;
+
 		echo "<sess>";
 		echo "<status>ok</status>";
+        echo "<user_id>".$fetch->user_id."</user_id>";
 		echo "<username>".$fetch->username."</username>";
 		echo "<password>".$fetch->password."</password>";
 		echo "<life>".(time()+(604800*4))."</life>";

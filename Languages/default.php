@@ -42,6 +42,10 @@
 
 			$this->return["watch"] = "Watch It";
 
+			$this->return["remove"] = "Remove";
+
+			$this->return["delete"] = "Delete";
+
 			$this->return["buy"] = "Buy";
 
 			$this->return["rent"] = "Rent";	
@@ -74,7 +78,15 @@
 
 			$this->return["required_password"] = "Your password is required!";
 
-			
+            $this->return["all"] = "All";
+
+			$this->return["free"] = "Free";
+
+            $this->return["paid"] = "Paid";
+
+            $this->return["data_not_found"] = "There is not anything to show you!";
+
+            $this->return["movie_has_been_removed"] = "Sory, This movie has been removed!";
 
 		}
 

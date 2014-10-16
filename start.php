@@ -71,7 +71,21 @@
 
                     if(file_exists($page)){
 
-            
+                        $VideoURL = NULL;
+
+                        if($_GET["p"]=="movie"){
+
+                            $WatchToken = md5($_SESSION["u"].$_SESSION["p"].$_SESSION["uid"].date("Y-m-d-H-i-s"));
+
+                            //$VideoURL = "start.php?p=video&c=query&token=".$WatchToken;
+
+                            $VideoURL = "video-query-".$WatchToken.".mp4";
+
+                            $Connection->Query("INSERT INTO `watching_token`(`key`,`user_id`,`movie_id`) VALUES('?','?','?')",array($WatchToken,$_SESSION["uid"],$_GET["movie_id"]));
+
+                            $Video = $Connection->Q("SELECT * FROM `movies` WHERE `id`='?'",array($_GET["movie_id"]))->fetch_obj();
+                        
+                        }
 
                         require_once $page;
 
@@ -111,7 +125,13 @@
 
             if($_GET["c"]=="query"){
 
-                
+                /*if($_GET["p"]=="video"){
+
+                    require_once "Engines/isWatchKey.php";
+
+                    require_once "Engines/isPaid.php";
+
+                }*/
 
                 require_once "Core/".$_GET["p"].".php";
 

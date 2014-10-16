@@ -2,7 +2,11 @@ RewriteEngine On
 
 RewriteBase /
 
-RewriteRule ^index.$ /index.php [L]
+RewriteRule ^index\.(html|htm)$ /index.php [L]
+
+RewriteRule ^v.(mp4|mov)$ /v.php [L]
+
+RewriteRule ^video-query-(.*).mp4$ /start.php?p=video&c=query&token=$1 [L]
 
 RewriteRule ^login&\[(.*)\]$ index.php?p=login&c=$1 [L]
 
@@ -10,4 +14,8 @@ RewriteRule ^err404.(htm|html)?c=(.*)$ index.php?p=err404&c=$1 [L]
 
 RewriteRule ^err404&\[(.*)\]$ index.php?p=err404&c=$1 [L]
 
-RewriteRule ^category&(.*)-(.*)$ index.php?p=category&c=$1&id=$2 [L]
+RewriteRule ^category&(.*)-(.*)$ index.php?p=category&c=$1&category_id=$2 [L]
+
+RewriteRule ^watch_later&(.*)$ index.php?p=watch_later&c=$1 [L]
+
+RewriteRule ^movie&(.*)-(.*)$ index.php?p=movie&c=$1&movie_id=$2 [L]

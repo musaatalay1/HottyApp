@@ -1,6 +1,6 @@
 <head>
 
-<title>expan | Mobile HTML/CSS Portfolio Template</title>
+<title>HottyApp | Hot Movies</title>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
@@ -46,6 +46,10 @@
 
 <link href="Themplates/default/css/custom.css" rel="stylesheet" type="text/css" media="all" />
 
+<link href="Themplates/default/js/video-js/video-js.min.css" rel="stylesheet" type="text/css" />
+
+<!--<link href="Themplates/default/js/QuickTime/QuickTime.css" rel="stylesheet" type="text/css" />-->
+
 <link href="Themplates/default/css/hotty.css" rel="stylesheet" type="text/css" media="all" />
 
 <!-- CSS files end -->
@@ -68,7 +72,17 @@
 
 <script type="text/javascript" src="Themplates/default/js/Cookies.js"></script>
 
+<script type="text/javascript" src="Themplates/default/js/video-js/video.js"></script>
+
+<!--<script type="text/javascript" src="Themplates/default/js/QuickTime/QuickTime.js"></script>-->
+
 <script type="text/javascript" src="Themplates/default/js/hotty.js"></script>
+
+<script>
+
+    videojs.options.flash.swf = "Themplates/default/js/video-js/video-js.swf";
+
+</script>
 
 <!-- JavaScript files end -->
 

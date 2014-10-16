@@ -96,13 +96,7 @@
 
   <!-- page wrapper ends --> 
 
-  
-
-  <!-- footer wrapper starts -->
-
   <?php require_once 'Themplates/default/includes/footer.php'; ?>
-
-  <!-- copyright wrapper ends --> 
 
   </div>
 

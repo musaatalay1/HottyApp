@@ -74,37 +74,7 @@
 
   <!-- page wrapper ends --> 
 
-  
-
-  <!-- footer wrapper starts -->
-
-  <div class="footerWrapper"> 
-
-    <!-- copyright wrapper starts -->
-
-    <div class="copyrightWrapper"> 
-
-      <!-- copyright starts --> 
-
-      <span class="copyright">&copy; copyright expan.</span> 
-
-      <!-- copyright ends --> 
-
-      <!-- back to top button starts --> 
-
-      <a href="" class="backToTopButton"></a> 
-
-      <!-- back to top button ends --> 
-
-    </div>
-
-    <!-- copyright wrapper ends --> 
-
-  </div>
-
-  <!-- footer wrapper ends --> 
-
-  
+<?php require_once 'Themplates/default/includes/footer.php'; ?>
 
 </div>
 

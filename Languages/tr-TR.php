@@ -42,6 +42,10 @@
 
 			$this->return["watch"] = "İzle";
 
+			$this->return["remove"] = "Kaldır";
+
+			$this->return["delete"] = "Sil";
+
 			$this->return["buy"] = "Satın Al";
 
 			$this->return["rent"] = "Kirala";	
@@ -75,6 +79,16 @@
             $this->return["required_username"] = "Lütfen kullanıcı adınızı giriniz!";
 
             $this->return["required_password"] = "Lütfen şifrenizi giriniz!";
+
+            $this->return["all"] = "Hepsi";
+
+            $this->return["free"] = "Ücretsiz";
+
+            $this->return["paid"] = "Ücretli";
+
+            $this->return["data_not_found"] = "Listelenecek kayıt bulunamadı!";
+            
+            $this->return["movie_has_been_removed"] = "Üzgünüz, Bu film yayından kaldırılmıştır!";
 
 			
 
